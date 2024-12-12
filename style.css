@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+font-family:"Open Sans",sans-serif;
+margin: 0px;
+}
+.navBar{
+padding:50px 200px;
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+
+}
+.mary{
+    color: #181818;
+    font-weight:800;
+    font-size: 45px;
+}
+span{
+    color: #FD6E0A;
+}
+ul{
+    display: flex;
+    align-items: baseline;
+
+}
+
+ul li{
+    list-style: none;
+   margin-right: 50px;
+
+}
+li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #474747;
+}
+ .primaryBtn{
+    border: none;
+    color: white;
+    background-color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+.baba{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    align-items: center;
+}
+header{
+    background-color: #fff8f3;
+    background-image: url(images/header_bg.png),url(images/developer.png);
+    background-repeat:no-repeat;
+    background-position: bottom right,left;
+}
+.hi{
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+.hardy{
+    font-weight: 700px;
+    font-size: 85px;
+    color: #181818;
+}
+.dec{
+    font-size: 18px;
+    color: #757575;
+    margin: 20px 0px 30px 0px;
+}
+
+.btn-outline{
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    background-color: rgba(255, 255, 255, 0.066);
+    padding: 18px 20px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.about{
+   /* width: 1140px;
+    height: 550px;*/
+    background-color: #fff8f3;
+    margin: 130px 200px;
+    border-radius: 10px;
+    padding-top: 130px;
+    text-align: center;
+    padding-bottom: 130px 0px;
+}
+.aboutme{
+    margin: 0px 150px;
+    /* border: 1px solid black; */
+}
+.fatherofFourSon{
+    display: flex;
+    justify-content: space-around;
+}
+.aboutMeHeading{
+    font-weight: 700;
+    font-size: 35px;
+    /* color: ; */
+}
+.aboutMePera{
+    font-size: 18px;
+    margin: 30px 0px;
+    color: #757575 ;
+}
+.name{
+    font-size: 20px;
+    color: #757575;
+    text-align: center;
+}
+.bolder{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+
+.whatido{
+    margin: 0px 200px 130px;
+    text-align: center;
+}
+.whatidotitle{
+    font-weight: 700;
+    font-size: 35px;
+}
+.whatIDopara{
+    padding: 30px 115px 50px;
+    font-size: 18px;
+    color: #757575;
+}
+.fatherOfFourSon{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.whatIDoContainerson{
+   /* border: 2px solid #FD6E0A;*/
+   margin: 24PX;
+   padding: 30PX;
+   box-shadow: 0 4PX 8PX 0 rgba(0,0,0,0.03),06px 20px 0 rgba(0,0,0.23);
+   border-radius: 5px;
+}
+.cardTitle{
+    margin: 30px 0px 20px;
+}
+.summeryTitle{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 100px;
+
+}
+.commonForEduEXP{
+    display: flex;
+    margin: 0px 200px;
+}
+.edu{
+    margin-right: 70px;
+}
+.summeryExpHeading{
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.commoneTitle{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+}
+.commonePara{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin: 10px 0px 20px;
+}
+.commoneParaSm{
+    font-size: 16px;
+    color: #757575;
+}
+hr{
+    margin: 30px 0px;
+}
+.DownloadBtnDiv{
+    text-align: center;
+    margin:50px 0px 100px ;
+}
+.footer{
+    background-color: #fff8f3;
+    padding: 130px 200px; 
+    display: flex;
+    justify-content: space-between;
+}
+.footerson-1{
+    width: 50%;
+    margin-right: 100px;
+}
+.footerson-2{
+    width: 50%;
+}
+.footerTitle{
+    font-weight: 700;
+    font-size: 35px;
+}
+.footerPara{
+ font-size: 16px;
+ color: #474747;
+ margin: 20px 0px 30px;   
+}
+.twitter{
+    margin: 0px 25px 0px;
+}
+.textInput{
+    margin: 25px 0px;
+    border: none;
+    padding: 18px 300px 18px 30px;
+    border-radius: 5px;
+}
+.textArea{
+    margin: 25px 0px;
+    border: none;
+    padding: 18px 300px 130px 30px;
+    border-radius: 5px;
+}
+   
